@@ -119,7 +119,7 @@ Copiar el contenido del directorio generado (por ejemplo target/ o dist/) al ser
 
 Validar accesibilidad desde el navegador local.
 
-## 4. Configuración
+## Configuración
 
 ### a. Configuración del producto (archivos de configuración)
 
@@ -156,7 +156,7 @@ mvn -version        # Verifica instalación de Maven
 git --version       # Verifica instalación de Git
 ```
 
-## 5. Uso
+## Uso
 
 ### a. Referencia para usuario final
 
@@ -210,7 +210,7 @@ git commit -m "Actualización del contenido"
 git push origin main
 ```
 
-## 6. Contribución
+## Contribución
 
 ### a. Guía de contribución para usuarios
 
@@ -248,7 +248,7 @@ git push origin nombre-de-tu-rama
 **Crear un Pull Request**
 Ve a GitHub, selecciona tu rama y haz clic en Compare & Pull Request.
 
-## 7. Roadmap
+## Roadmap
 
 Esta sección describe los requerimientos y mejoras que se planean implementar en futuras versiones del proyecto.
 
