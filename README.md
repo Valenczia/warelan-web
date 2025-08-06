@@ -156,7 +156,7 @@ mvn -version        # Verifica instalación de Maven
 git --version       # Verifica instalación de Git
 ```
 
-## Uso
+## Uso del Sistema
 
 ### a. Referencia para usuario final
 
