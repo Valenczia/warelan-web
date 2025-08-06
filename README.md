@@ -37,7 +37,7 @@ Diseñar una plataforma web simple, responsiva y de fácil acceso donde las tarj
 - [Roadmap](#roadmap)
 - [Documentación Técnica Extendida](https://github.com/valenczia/warelan-web/wiki)
 
-## 2.Requerimientos
+## Requerimientos
 
 ### a. Infraestructura
 
@@ -73,10 +73,9 @@ El proyecto utiliza los siguientes componentes:
 
 La versión mínima requerida para compilación y ejecución de pruebas es:
 
-```text
 Java SE 17 (OpenJDK 17)
 
-## 3. Instalación
+## Instalación
 
 ### a. ¿Cómo instalar el ambiente de desarrollo?
 
@@ -92,15 +91,19 @@ Java SE 17 (OpenJDK 17)
    - Descarga desde [https://git-scm.com](https://git-scm.com)
 
 4. Clonar el proyecto:
-   ```bash
+
+   ```
    git clone https://github.com/usuario/repositorio.git
    cd repositorio
+   ```
 
 b. ¿Cómo ejecutar pruebas manualmente?
 Ejecutar pruebas con Maven:
 
-bash
+```
 mvn test
+```
+
 Esto lanzará todas las pruebas unitarias definidas en el proyecto con JUnit.
 
 c. ¿Cómo implementar la solución en producción en un ambiente local o en la nube como Heroku?
@@ -108,8 +111,10 @@ Producción local:
 
 Ejecutar:
 
-bash
+```
 mvn clean install
+```
+
 Copiar el contenido del directorio generado (por ejemplo target/ o dist/) al servidor web (NGINX, Apache, etc.).
 
 Validar accesibilidad desde el navegador local.
@@ -145,10 +150,11 @@ Los requerimientos definidos deben estar correctamente reflejados y operativos:
 
 > Validación de configuración mediante los siguientes comandos:
 
-```bash
+```
 java -version       # Verifica instalación de Java
 mvn -version        # Verifica instalación de Maven
 git --version       # Verifica instalación de Git
+```
 
 ## 5. Uso
 
@@ -190,16 +196,19 @@ Esta sección está dirigida a quienes administran o mantienen el sistema.
    - Editar archivos `.html`, `.css`, `.md` según necesidad.
 
 2. **Compilar y probar cambios localmente:**
-   ```bash
+   
+   ```
    mvn clean install
    mvn test
+   ```
 
 Subir cambios al repositorio:
 
-bash
+```
 git add .
 git commit -m "Actualización del contenido"
 git push origin main
+```
 
 ## 6. Contribución
 
@@ -211,22 +220,30 @@ Se agradece cualquier contribución que ayude a mejorar el proyecto. Para colabo
    - Haz clic en el botón `Fork` en la parte superior derecha del repositorio original.
 
 **Clonar tu repositorio forked**
-   ```bash
+
+   ```
    git clone https://github.com/tu-usuario/tu-repositorio-forked.git
    cd tu-repositorio-forked
+   ```
 
 **Crear una nueva rama**
+```
 git checkout -b nombre-de-tu-rama
+```
 
 **Realizar los cambios necesarios**
 Edita archivos, agrega funcionalidades o mejora la documentación.
 
 **Confirmar los cambios**
+```
 git add .
 git commit -m "Descripción breve de los cambios"
+```
 
 **Subir la rama al repositorio**
+```
 git push origin nombre-de-tu-rama
+```
 
 **Crear un Pull Request**
 Ve a GitHub, selecciona tu rama y haz clic en Compare & Pull Request.
