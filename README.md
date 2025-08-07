@@ -19,7 +19,7 @@ Diseñar una plataforma web simple, responsiva y de fácil acceso donde las tarj
 
 | Componente | Tecnología              |
 |------------|--------------------------|
-| Frontend   | HTML, CSS, JavaScript    |
+| Frontend   | HTML, CSS                |
 | Hosting    | GitHub Pages o Heroku    |
 | CI/CD      | Travis CI                |
 | Pruebas    | JUnit 5 ejecutado con Maven |
